@@ -1,17 +1,11 @@
-body {
-    background-color: pink
-    
-}
-.navbar-default {
-    background: none;
-}
-body {
-   
-   }
+.loader span{
+    display:block;
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    animation: loaderBlock 1.2s infinite ease-in-out both;
 
-greatness {
-    width: 200px;
-    height: 200px;
 }
-   
- 
+
+
