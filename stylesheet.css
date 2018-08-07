@@ -1,11 +1,14 @@
 body {
     background-color: black;
     color: silver;
+    font-family: 'Lato', sans-serif;
 }
 
 h1{
     color:palevioletred;
     text-align: center;
+    font-family: 'Courgette', cursive;
+
 }
 
 .topnav {
