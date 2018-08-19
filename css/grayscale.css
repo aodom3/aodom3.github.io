@@ -11,8 +11,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: palevioletred;
-  border: 1px solid palevioletred;
+  color: lightcoral;
+  border: 1px solid lightcoral;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -71,15 +71,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: palevioletred;
+    color: lightcoral;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: lightcoral;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: palevioletred;
+    color: lightcoral;
     outline: none;
-    border-bottom: 0.25rem solid palevioletred;
+    border-bottom: 0.25rem solid lightcoral;
   }
 }
 
@@ -98,8 +98,8 @@
 
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 5.5rem;
+  line-height: 5.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
@@ -108,7 +108,7 @@
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -145,20 +145,20 @@
 }
 
 .btn-primary {
-  background-color: palevioletred;
+  background-color: lightcoral;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: plum;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: lightcoral;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color:plum!important;
 }
 
 .about-section {
@@ -181,7 +181,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid palevioletred;
+    border-left: 0.5rem solid lightcoral;
   }
 }
 
@@ -195,7 +195,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: palevioletred;
+    border-color: lightcoral;
     border-width: .25rem;
     width: 30%;
   }
@@ -232,7 +232,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid palevioletred;
+  border-bottom: 0.25rem solid lightcoral;
 }
 
 .contact-section .card h4 {
@@ -243,7 +243,7 @@
 }
 
 .contact-section .card hr {
-  border-color: palevioletred;
+  border-color: lightcoral;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -276,7 +276,7 @@ body {
 }
 
 a {
-  color: palevioletred;
+  color: lightcoral;
 }
 
 a:focus, a:hover {
@@ -289,11 +289,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: palevioletred !important;
+  background-color: lightcoral !important;
 }
 
 .text-primary {
-  color: palevioletred !important;
+  color: lightcoral !important;
 }
 
 footer {
