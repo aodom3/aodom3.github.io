@@ -2,146 +2,310 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-    <title>ASH..LEE</title>
-    <!-- stylesheets -->
-    <link href="https://fonts.googleapis.com/css?family=Courgette|Lato" rel="stylesheet">
-    <link href="stylesheet.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
-<!-- navbar -->
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <div class ="icons">
-        <a href="https://www.github.com/aodom3"><img src="../images/gg.png"></a>
-        <a href="https://www.facebook.com/asodom3"><img src="../images/fbg.png"></a>
-        <a href="https://www.instagram.com/ash.lee.oh"><img src="../images/igg.png"></a>
-        <a href="https://www.linkedin.com/in/asodom"><img src="../images/lig.png"></a>
-        </div>
-    </div>
-<!-- end of navbar -->
-    <section id="main">
-     
-        <h1>I am..</h1>
-        <center><img src="images/logo.png" alt="logo"></center>
-        <logo >Ashley Odom</logo>
-        <p>Hello!... one two testing...Welcome to my Portfolio page. I am a full stack developer and graphic designer based in Atlanta, Georgia, or as I like to call it, ARTLANTA!
-        I have a strong passion for design and code. I started out doing collages which eventually led me to print designing. I specialize in 
-        commemorative booklets for families who have lost loved ones as well as photo restorations. As I progressed with my print design, I realized that my love of digital art 
-        was growing stronger as well. Having a desire to empathize with users has helped me advance my app building skills tremendously.
-         Over the past months, I have been honing my front-end skills as well as learning and developing back-end skills. 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        </p>
-      
-    <h1>"I make apps...and they're pretty too!"</h1>
-    
-        
-    </section>
+    <title>Ashley Odom</title>
 
-    <h1>Coding Projects</h1>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <div class="row">
-            <div class="column">
-                <img src="images/drink.png" alt="DrinknDash" onclick="openImg(this);">
-            </div>
-            <div class="column">
-                <img src="images/lebron.png" alt="Lebron" onclick="openImg(this);">
-            </div>
-            <div class="column">
-                <img src="images/archer.png" alt="Archer" onclick="openImg(this);">
-            </div>
-            <div class="column">
-                    <img src="images/livi.png" alt="Calculator" onclick="openImg(this);">
-                </div>
-            <div class="column">
-                <img src="images/queen.png" alt="Queen Sugar" onclick="openImg(this);">
-            </div>
-            <div class="column">
-                    <img src="images/sub.png" alt="SubApp" onclick="openImg(this);">
-                </div>
-        </div>
-    <!-- The expanding image container -->
-    <div class="container">
-        <!-- Close the image -->
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-      
-        <!-- Expanded image -->
-        <img id="expandedImg" style="width:100%">
-      
-        <!-- Image text -->
-        <div id="imgtext"></div>
-      </div>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
 
-    </section>
-    
+</head>
 
-    <section id="skills">
-        <h1>My Skills</h1>
-        
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-                <div class="skills html">90%</div>
-              </div>
-              
-              <p>HTML5/CSS3</p>
-              <div class="container">
-                <div class="skills css">80%</div>
-              </div>
-              
-              <p>JavaScript</p>
-              <div class="container">
-                <div class="skills js">65%</div>
-              </div>
-              
-              <p>PHP</p>
-              <div class="container">
-                <div class="skills php">60%</div>
-              </div>
-        <!-- <ul>
-            <li>Photoshop</li>
-            <li>InDesign</li>
-            <li>HTML5/CSS3</li>
-            <li>Javascript</li>
-            <li>JQuery</li>
-            <li>Node JS</li>
-            <li>MongoDB</li>
-            <li>Express</li>
-            <li>React</li>
-            <li>Ruby on Rails</li>
-            <li>Git</li>
-            <li>Agile</li>
-            <li>TDD</li>
-
-        </ul> -->
-    </section>
-    <!-- projects -->
-    
-            <h1>Print Design</h1>
-            <ul>
-                <li>Funeral Programs</li>
-                <li>Retirement Flyers</li>
-            </ul>
-        
-    </section>
-    <section id="Contact">
-        <div class="big-container">
-            <div class="container">
-                <h1>Let's Connect!</h1>
-                <a href="https://www.facebook.com/aodom">Facebook</a>
-                <a href="https://www.linkedin.com/in/asodom">LinkedIn</a>
-                <a href="https://www.instagram.com/ash.lee.oh">IG</a>
-                404-946-8799 aodom3@gmail.com
-
-                <form></form>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Ashley Odom</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Ashley Odom</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Front-End Developer, Designer, and Tech Enthusiast</h2>
+                <a href="#about" class="btn btn-primary js-scroll-trigger">Welcome!</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">About Me</h2>
+                    <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download
+                        the template on
+                        <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                </div>
+            </div>
+            <img src="img/ipad.png" class="img-fluid" alt="">
+        </div>
     </section>
-    copyright 2018 ashley odom
-    </body>
-    <script type="text/javascript" src = "/js/script.js"</script>
-    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+        <div class="container">
+
+            <!-- Featured Project Row -->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Archer</h4>
+                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial
+                            projects! Download it, customize it, and publish your website!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Lebron</h4>
+                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Livi's Calculator</h4>
+                                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively
+                                    as well, try this theme on a small screen!</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Drink 'N' Dash</h4>
+                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Three Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Sub's Little Helper</h4>
+                                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively
+                                    as well, try this theme on a small screen!</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">Education</h2>
+                    <p class="text-white-50">Georgia State University -- Political Science, BA General Assembly --Full Stack Web Devlopement Immersive
+                </div>
+            </div>
+            <img src="img/ipad.png" class="img-fluid" alt="">
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">Skills</h2>
+                    <p class="text-white-50">im full stack but really interested in front end development and design break down into front end back
+                        end design paragraphs side by side
+                        <ul>
+                            <li>photoshop</li>
+                            <li>indesign</li>
+                            <li>html/css</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Express/Node</li>
+                            <li>mongodb</li>
+                            <li>sketchapp</li>
+                            <li>wireframes/user stories</li>
+                            <li>agile enviroments</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <img src="img/ipad.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <!-- Signup Section
+    <section id="signup" class="signup-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+                    <form class="form-inline d-flex">
+                        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+                        <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+        <div class="container">
+
+            <div class="row">
+
+                <!-- <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Linked-In</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">wwww</div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">
+                                <a href="#">aodom3@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4">
+                            <div class="small text-black-50">(404)946-8799</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social d-flex justify-content-center">
+                <a href="https://www.instagram.com/ash.lee.oh" class="mx-2">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/asodom3" class="mx-2">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.github.com/aodom3" class="mx-2">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/asodom" class="mx-2">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+        <div class="container">
+            Copyright &copy; Ashley Odom 2018
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+</body>
 
 </html>
