@@ -11,8 +11,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: palevioletred;
+  border: 1px solid palevioletred;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -71,15 +71,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: palevioletred;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: palevioletred;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid palevioletred;
   }
 }
 
@@ -181,7 +181,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid palevioletred;
   }
 }
 
@@ -195,20 +195,25 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: palevioletred;
     border-width: .25rem;
     width: 30%;
   }
 }
-
-.signup-section {
+#doughnut,#doughnut2,#doughnut3,#doughnut4{
+  position: absolute;
+}
+#skill1,#skill2,#skill3,#skill4{
+  position: relative;
+}
+ .skills-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
+} 
 
 .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -219,7 +224,7 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-}
+} */
 
 .contact-section {
   padding: 5rem 0 0;
@@ -227,7 +232,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid palevioletred;
 }
 
 .contact-section .card h4 {
@@ -238,7 +243,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: palevioletred;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -271,7 +276,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: palevioletred;
 }
 
 a:focus, a:hover {
@@ -284,11 +289,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: palevioletred !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: palevioletred !important;
 }
 
 footer {
