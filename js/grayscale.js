@@ -1,9 +1,21 @@
+$(function() {
+    var selectedClass = "";
+    $(".filter").click(function(){
+        selectedClass = $(this).attr("data-rel");
+        $("#gallery").fadeTo(100, 0.1);
+        $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+        setTimeout(function() {
+            $("."+selectedClass).fadeIn().addClass('animation');
+            $("#gallery").fadeTo(300, 1);
+        }, 300);
+    });
+});
 //draw the doughnut
 var doughnutArray = [document.getElementById('doughnut').getContext('2d'), document.getElementById('doughnut2').getContext('2d'), document.getElementById('doughnut3').getContext('2d'), document.getElementById('doughnut4').getContext('2d')];
 for (var i = 0; i < doughnutArray.length; i++) {
   doughnutArray[i].lineWidth = 5; //thickness of the line
-  doughnutArray[i].fillStyle = '#eaeaea';
-  doughnutArray[i].strokeStyle = "#eaeaea";
+  doughnutArray[i].fillStyle = "#f08080";
+  doughnutArray[i].strokeStyle = "#f08080";
   doughnutArray[i].beginPath();
   doughnutArray[i].arc(60, 60, 55, 4.72, 15, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
   doughnutArray[i].stroke();
